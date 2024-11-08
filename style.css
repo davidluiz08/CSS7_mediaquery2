@@ -1,0 +1,125 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    margin:30px;
+}
+
+.left {
+    min-width: 400px;
+
+}
+
+.bt {
+    display: flex;
+    padding-top: 120px;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.st {
+    writing-mode: vertical-lr;
+}
+
+.containerImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bilder {
+    margin: 5%;
+}
+
+
+
+.bt2 {
+    display:flex;
+    padding-top: 190px;
+    
+}
+
+.st2 {
+    writing-mode: vertical-lr;
+}
+
+.bt3 {
+    display:flex;
+    padding-top: 120px;
+}
+
+.st3 {
+    writing-mode: vertical-lr;
+}
+
+.bt4 {
+    display:flex;
+    padding-left: 80px;
+    padding-top: 190px;
+}
+
+.st4 {
+    writing-mode: vertical-lr;
+}
+
+.bt5 {
+    display:flex;
+    padding-left: 80px;
+    position: relative;
+    
+}
+
+.st5 {
+    writing-mode: vertical-lr;
+}
+
+.bt6 {
+    display: flex;
+    padding-left: 80px;
+}
+
+.st6 {
+    writing-mode: vertical-lr;
+    
+}
+
+.david {
+    padding-left: 40px;
+}
+
+.saba {
+    padding-left: 40px;
+}
+
+.farhaan {
+    padding-left: 40px;
+}
+
+.camilla {
+    padding-left: 40px;
+}
+
+.uael {
+    padding-left: 40px;
+
+}
+
+.kevin {
+    padding-left: 40px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        display:flex;
+        flex-direction: column;
+    }     
+}
